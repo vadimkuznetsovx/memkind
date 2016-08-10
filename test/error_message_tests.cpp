@@ -64,7 +64,7 @@ protected:
     }
     void TearDown()
     {
-        delete all_error_code;
+        delete[] all_error_code;
     }
 };
 
